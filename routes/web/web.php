@@ -51,12 +51,4 @@ Route::get('/image', function()
  * Note: This route is declared last because other routes won't work well if declared first.
  */
 
-Route::get('/{user}', function ($username) {
-    $user = \App\User::whereUsername($username)->first();
-    if ($user) {
-        echo $user->username;
-    }
-    else {
-        return view('404');
-    }
-});
+Route::get('/{user}', 'Front\UserController@index');
