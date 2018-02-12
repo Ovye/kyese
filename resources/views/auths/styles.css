@@ -1,0 +1,71 @@
+.form .btn.sign-in {
+    margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+    .form .pull-right {
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        float: none !important;
+        margin-top: 10px;
+    }
+    .form .pull-right .create-account {
+        text-align: center;
+        margin-top: 20px;
+        display: block;
+    }
+
+    .form .btn.sign-in {
+        display: block !important;
+        float: none;
+        width: 100%;
+    }
+
+    .remember-me-wrap {
+        margin-left: -15px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .remember-me-wrap {
+        margin-left: -20px;
+    }
+}
+.show-password-icon {
+    background: transparent;
+    width: auto;
+    cursor: pointer;
+}
+.show-password-icon{
+    borde: 1px solid #ddd;
+    margin-bottom: -20px;
+    text-align: right;
+    display: block;
+    clear: both;
+    right: 0;
+    position: absolute;
+    padding: 16px 10px;
+}
+
+.show-password-icon i {
+    text-align: right;
+    font-size: 20px;
+    line-height: 16px;
+    color: #bbb;
+    margin-right: 10px;
+}
+
+.input-group-addon.show-password-icon i {
+    font-size: 18px;
+}
+
+.login-container {
+    background: #d3d3d3;
+}
+
+.show-hide-password {
+    cursor: pointer;
+}
+
