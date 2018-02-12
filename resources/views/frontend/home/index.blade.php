@@ -162,7 +162,7 @@
                                     <div class="ky-home-category-img">
                                         <img src="{{ asset('assets/img/categories/jobs.png') }}" alt="image">
                                     </div>
-                                    <h4 class="ky-home-category-title">Jobs</h4>
+                                    <h4 class="ky-home-category-title">Stores</h4>
                                 </a>
                             </div>
                         </div>
