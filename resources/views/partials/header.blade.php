@@ -34,7 +34,7 @@
 @endif
 @if(isset($only_body) && $only_body != true || !isset($only_body) )
 <body class="fixed-header horizontal-menu horizontal-app-menu">
-    <div class="header p-r-0 bg-primary">
+    <div class="header p-r-0 bg-primary frontend">
         <div class="header-inner header-md-height">
             <a href="#" class="btn-link toggle-sidebar hidden-lg-up pg pg-menu text-white" data-toggle="horizontal-menu"></a>
             <div class="">

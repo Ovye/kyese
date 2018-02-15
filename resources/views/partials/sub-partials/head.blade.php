@@ -4,6 +4,7 @@
 <link href="{{ asset('assets/plugins/font-awesome/css/font-awesome.css') }}" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/fonts/flaticon/flaticon.css') }}">
 <link href="{{ asset('assets/plugins/jquery-scrollbar/jquery.scrollbar.css') }}" rel="stylesheet" type="text/css" media="screen" />
 <link href="{{ asset('assets/plugins/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css" media="screen" />
 <link href="{{ asset('assets/plugins/switchery/css/switchery.min.css') }}" rel="stylesheet" type="text/css" media="screen" />

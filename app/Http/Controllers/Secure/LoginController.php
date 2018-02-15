@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers\Secure;
 
-use App\Kyese\PreControllers\ProcessUserLogin;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Kyese\PreControllers\ProcessUserLogin;
 use App\Kyese\Supports\Assets;
+use Illuminate\Http\Request;
 use Laravel\Socialite\Facades\Socialite;
 
 class LoginController extends Controller
@@ -24,8 +24,7 @@ class LoginController extends Controller
 			'views' => [ 'auths/scripts' ]
 		]);
 		$this->assign['styles'] = Assets::css([
-			'views' => ['auths/styles'],
-            'public' => 'hhfhfhfh'
+			'views' => ['auths/styles']
 		], 1.0);
 		$this->assign['only_body'] = true;
 		$this->assign['is_front'] = true;
@@ -40,7 +39,7 @@ class LoginController extends Controller
 
 	public function doLogin(Request $request)
 	{
-		return ProcessUserLogin::instance()->run($request);
+		return (new ProcessUserLogin)->run($request);
 	}
 
 	/**

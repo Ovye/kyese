@@ -127,42 +127,51 @@
                             <div class="item">
                                 <a href="" class="ky-home-category-item">
                                     <span class="ky-home-category-counter">333</span>
-                                    <div class="ky-home-category-img">
-                                        <img src="{{ asset('assets/img/categories/jobs.png') }}" alt="image">
+                                    <div class="ky-home-category-icon">
+                                        <i class="flaticon-map-location"></i>
+                                    </div>
+                                    <h4 class="ky-home-category-title">Places</h4>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="" class="ky-home-category-item">
+                                    <div class="ky-home-category-icon">
+                                        <i class="flaticon-briefcase"></i>
                                     </div>
                                     <h4 class="ky-home-category-title">Jobs</h4>
                                 </a>
                             </div>
                             <div class="item">
                                 <a href="" class="ky-home-category-item">
-                                    <div class="ky-home-category-img">
-                                        <img src="{{ asset('assets/img/categories/jobs.png') }}" alt="image">
+                                    <div class="ky-home-category-icon">
+                                        <i class="flaticon-users"></i>
                                     </div>
-                                    <h4 class="ky-home-category-title">Jobs</h4>
+                                    <h4 class="ky-home-category-title">Profiles</h4>
                                 </a>
                             </div>
                             <div class="item">
                                 <a href="" class="ky-home-category-item">
-                                    <div class="ky-home-category-img">
-                                        <img src="{{ asset('assets/img/categories/jobs.png') }}" alt="image">
+                                    <div class="ky-home-category-icon">
+                                        <i class="flaticon-folder-3"></i>
                                     </div>
-                                    <h4 class="ky-home-category-title">Jobs</h4>
+                                    <h4 class="ky-home-category-title">Organizations</h4>
                                 </a>
                             </div>
                             <div class="item">
                                 <a href="" class="ky-home-category-item">
-                                    <div class="ky-home-category-img">
-                                        <img src="{{ asset('assets/img/categories/jobs.png') }}" alt="image">
-                                    </div>
-                                    <h4 class="ky-home-category-title">Jobs</h4>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="ky-home-category-item">
-                                    <div class="ky-home-category-img">
-                                        <img src="{{ asset('assets/img/categories/jobs.png') }}" alt="image">
+                                    <div class="ky-home-category-icon">
+                                        <i class="flaticon-house"></i>
                                     </div>
                                     <h4 class="ky-home-category-title">Stores</h4>
+                                </a>
+                            </div>
+
+                            <div class="item">
+                                <a href="" class="ky-home-category-item">
+                                    <div class="ky-home-category-icon">
+                                        <i class="flaticon-calendar"></i>
+                                    </div>
+                                    <h4 class="ky-home-category-title">Events</h4>
                                 </a>
                             </div>
                         </div>
@@ -171,50 +180,242 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ky-items-headings">
+                    <h2 class="ky-items-heading">Popular creations</h2>
+                    <h4 class="ky-items-sub-heading">Explore a collections of our popular creations.</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center ky-items">
+            <div class="ky-items-owl-carousel">
+                <div class="item">
+                    <div class="ky-item">
+                        <div class="ky-item-img-wrapper">
+                            <a href="" class="ky-item-img" style="background-image: url({{ asset('assets/img/gallery/5.jpg') }})"></a>
+                        </div>
+                        <div class="ky-item-label">
+                            <a href="">
+
+                            </a>
+                        </div>
+                        <div class="ky-item-meta">
+                            <div class="ky-item-meta-cats">
+                                <a href="">Premium</a> .
+                                <a href="">Computer</a>
+                            </div>
+                            <a href="">
+                                <h3 class="ky-item-meta-title">Valuebeam LTD new special robot for kids</h3>
+                            </a>
+                        </div>
+                        <div class="ky-item-user-contents">
+                            <a href="">
+                                <div class="ky-item-user" data-toggle="tooltip" data-original-title="Verified" data-placement="bottom">
+                                    <div class="ky-item-user-img">
+                                        <img src="{{ asset('assets/img/profiles/3x.jpg') }}" alt="user img">
+                                    </div>
+                                    <div class="ky-item-user-meta">
+                                        <span class="name">Josiah Ovye Yahaya</span>
+                                        <span class="location"><i class="fa fa-map-marker"></i> Makurdi</span>
+                                    </div>
+                                    <div class="ky-item-user-verified-badge">
+                                        <img src="{{ asset('assets/img/icons/verified_badge.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{--item ends--}}
+                <div class="item">
+                    <div class="ky-item">
+                        <div class="ky-item-img-wrapper">
+                            <a href="" class="ky-item-img" style="background-image: url({{ asset('assets/img/items/image13.jpg') }})"></a>
+                        </div>
+                        <div class="ky-item-price">
+                            <div class="price">₦200, 000</div>
+                        </div>
+                        <div class="ky-item-label">
+                            <a href="">
+
+                            </a>
+                        </div>
+                        <div class="ky-item-meta">
+                            <div class="ky-item-meta-cats">
+                                <a href="">Premium</a> .
+                                <a href="">Computer</a>
+                            </div>
+                            <a href="">
+                                <h3 class="ky-item-meta-title">Valuebeam LTD new special robot for kids</h3>
+                            </a>
+                        </div>
+                        <div class="ky-item-user-contents">
+                            <a href="">
+                                <div class="ky-item-user">
+                                    <div class="ky-item-user-img">
+                                        <img src="{{ asset('assets/img/profiles/4x.jpg') }}" alt="user img">
+                                    </div>
+                                    <div class="ky-item-user-meta">
+                                        <span class="name">Josiah Ovye Yahaya</span>
+                                        <span class="location"><i class="fa fa-map-marker"></i> Makurdi</span>
+                                    </div>
+                                    <div class="ky-item-user-verified-badge">
+                                        <img src="{{ asset('assets/img/icons/verified_badge.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{--End item--}}
+                <div class="item">
+                    <div class="ky-item">
+                        <div class="ky-item-img-wrapper">
+                            <a href="" class="ky-item-img" style="background-image: url({{ asset('assets/img/items/image12.jpg') }})"></a>
+                        </div>
+                        <div class="ky-item-price">
+                            <div class="price">₦2,000</div>
+                        </div>
+                        <div class="ky-item-label">
+                            <a href="">
+
+                            </a>
+                        </div>
+                        <div class="ky-item-meta">
+                            <div class="ky-item-meta-cats">
+                                <a href="">Premium</a> .
+                                <a href="">Computer</a>
+                            </div>
+                            <a href="">
+                                <h3 class="ky-item-meta-title">Valuebeam LTD new special robot for kids</h3>
+                            </a>
+                        </div>
+                        <div class="ky-item-user-contents">
+                            <a href="">
+                                <div class="ky-item-user">
+                                    <div class="ky-item-user-img">
+                                        <img src="{{ asset('assets/img/profiles/4x.jpg') }}" alt="user img">
+                                    </div>
+                                    <div class="ky-item-user-meta">
+                                        <span class="name">Josiah Ovye Yahaya</span>
+                                        <span class="location"><i class="fa fa-map-marker"></i> Makurdi</span>
+                                    </div>
+                                    <div class="ky-item-user-verified-badge">
+                                        <img src="{{ asset('assets/img/icons/verified_badge.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {{--Ends item--}}
+                <div class="item">
+                    <div class="ky-item">
+                        <div class="ky-item-img-wrapper">
+                            <a href="" class="ky-item-img" style="background-image: url({{ asset('assets/img/items/image14.jpg') }})"></a>
+                        </div>
+                        <div class="ky-item-price with-sub-price">
+                            <div class="price">₦2k</div>
+                            <span class="small sub-price">per person</span>
+                        </div>
+                        <div class="ky-item-label">
+                            <a href="">
+
+                            </a>
+                        </div>
+                        <div class="ky-item-meta">
+                            <div class="ky-item-meta-cats">
+                                <a href="">Premium</a> .
+                                <a href="">Computer</a>
+                            </div>
+                            <a href="">
+                                <h3 class="ky-item-meta-title">Valuebeam LTD new special robot for kids</h3>
+                            </a>
+                        </div>
+                        <div class="ky-item-user-contents">
+                            <a href="">
+                                <div class="ky-item-user">
+                                    <div class="ky-item-user-img">
+                                        <img src="{{ asset('assets/img/profiles/4x.jpg') }}" alt="user img">
+                                    </div>
+                                    <div class="ky-item-user-meta">
+                                        <span class="name">Josiah Ovye Yahaya</span>
+                                        <span class="location"><i class="fa fa-map-marker"></i> Makurdi</span>
+                                    </div>
+                                    <div class="ky-item-user-verified-badge">
+                                        <img src="{{ asset('assets/img/icons/verified_badge.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 ky-items-show-all">
+                <a href="">Show all (200+) <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ky-items-headings">
+                    <h2 class="ky-items-heading">Top rated creations</h2>
+                    <h4 class="ky-items-sub-heading">Collections of top rated creations</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row ky-items">
+            <div class="ky-items-owl-carousel">
+                <div class="item">
+                    <div class="ky-item">
+                        <div class="ky-item-img-wrapper">
+                            <a href="" class="ky-item-img" style="background-image: url({{ asset('assets/img/items/image14.jpg') }})"></a>
+                        </div>
+                        <div class="ky-item-price">
+                            <div class="price">₦200B</div>
+                        </div>
+                        <div class="ky-item-label">
+                            <a href="">
+
+                            </a>
+                        </div>
+                        <div class="ky-item-meta">
+                            <div class="ky-item-meta-cats">
+                                <a href="">Premium</a> .
+                                <a href="">Computer</a>
+                            </div>
+                            <a href="">
+                                <h3 class="ky-item-meta-title">Valuebeam LTD new special robot for kids</h3>
+                            </a>
+                        </div>
+                        <div class="ky-item-user-contents">
+                            <a href="">
+                                <div class="ky-item-user">
+                                    <div class="ky-item-user-img">
+                                        <img src="{{ asset('assets/img/profiles/4x.jpg') }}" alt="user img">
+                                    </div>
+                                    <div class="ky-item-user-meta">
+                                        <span class="name">Josiah Ovye Yahaya</span>
+                                        <span class="location"><i class="fa fa-map-marker"></i> Makurdi</span>
+                                    </div>
+                                    <div class="ky-item-user-verified-badge">
+                                        <img src="{{ asset('assets/img/icons/verified_badge.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+{{-- Locations --}}
 
-@section('scripts')
-    <script>
-        var locations = new Bloodhound({
-            datumTokenizer: Bloodhound.tokenizers.whitespace,
-            queryTokenizer: Bloodhound.tokenizers.whitespace,
-            local:  ['Makurdi', 'Gboko', 'Lafia', 'Otukpo', 'Oju',
-                'Kastina-ala', 'Kwande', 'Guma', 'Wannune', 'Yandev', 'Asukunya']
-        });
 
-        $('.ky-typeahead-locations').typeahead({
-                hint: true,
-                highlight: true,
-                minLength: 1
-            },
-            {
-            name: 'locations',
-            source: locations
-        });
-
-        $('.ky-owl-carousel').owlCarousel({
-            loop:true,
-            margin:15,
-            nav:true,
-            navRewind:true,
-            navText: ['<i class="sl sl-icon-arrow-left ky-carousel-nav-icon"></i>', '<i class="sl sl-icon-arrow-right ky-carousel-nav-icon"></i>'],
-            responsive:{
-                0:{
-                    items:2
-                },
-                600:{
-                    items:3
-                },
-                700:{
-                    items:4
-                },
-                1000:{
-                    items:5
-                }
-            }
-        });
-
-    </script>
-
-@endsection
